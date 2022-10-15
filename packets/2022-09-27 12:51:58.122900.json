@@ -1,0 +1,130 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 1934046,
+        "nonce": 3
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 0,
+            "battery": 4.05,
+            "humidity": 0.85,
+            "last_latitude": 48.97583597754456,
+            "last_location": "48.97583597754456, 2.859159878442256",
+            "last_longitude": 2.859159878442256,
+            "minutes_lost": 57,
+            "pressure": 7925,
+            "sats": 0,
+            "speed": 0,
+            "status": "LOST GPS",
+            "temperature": 645.35,
+            "uptime": 247,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "21010048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 495,
+    "hotspots": [
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 0,
+            "id": "11sxiW6PDLceU5nQYkuyxggHDY9jM73VYty5q8esJ1ej9CSoqTs",
+            "lat": 49.00969233574563,
+            "long": 2.0546492581342966,
+            "name": "beautiful-licorice-owl",
+            "reported_at": 1664283115939,
+            "rssi": -113.0,
+            "snr": -3.799999952316284,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 0,
+            "id": "112NeZwGBeGBKsScsZhGTsEiTiCDW6iGXQ9tse453Aci6t15fioE",
+            "lat": 49.045747618609425,
+            "long": 2.0082201571018565,
+            "name": "mysterious-candy-sealion",
+            "reported_at": 1664283115990,
+            "rssi": -110.0,
+            "snr": -3.799999952316284,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 0,
+            "id": "112Mhd5Aiq2Z111BYiv4j8iBSZSiSGKfNd7kfPtGpzCP9SEQZtxR",
+            "lat": 48.79119527953414,
+            "long": 2.4263139901843283,
+            "name": "polished-juniper-hyena",
+            "reported_at": 1664283116006,
+            "rssi": -118.0,
+            "snr": -8.199999809265137,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 0,
+            "id": "11sUESQtK56mZnfWb8g13g2ZooazJTq3M8hbUPG6YwdiQwy6Ddd",
+            "lat": 48.879438635758696,
+            "long": 2.484844403865098,
+            "name": "shaggy-frost-otter",
+            "reported_at": 1664283116007,
+            "rssi": -119.0,
+            "snr": -5.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 0,
+            "id": "11CxNLfxYxPPiYCRtB6geLSQ2bQQSCzLb1wdt3YmvbdiW6kkQAL",
+            "lat": 50.81678954111385,
+            "long": -1.3692288274384767,
+            "name": "dazzling-golden-narwhal",
+            "reported_at": 1664283116007,
+            "rssi": -126.0,
+            "snr": -9.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 5,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "xaeOggh+AAAAzQAA9wA5/BcAHvUAVQAA",
+    "payload_size": 24,
+    "port": 6,
+    "raw_packet": "QCEBAEgA7wEGR56hzVS7Gxr0qTo5q9z3bNI9aRLDkB0pb1rCeg==",
+    "replay": false,
+    "reported_at": 1664283115939,
+    "type": "uplink",
+    "uuid": "c6e83f45-f2bc-46e8-bd27-64a7941b39b8"
+}

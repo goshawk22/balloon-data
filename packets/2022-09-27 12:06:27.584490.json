@@ -1,0 +1,74 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 1946379,
+        "nonce": 3
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 0,
+            "battery": 4.06,
+            "humidity": 1.63,
+            "last_latitude": 48.97583597754456,
+            "last_location": "48.97583597754456, 2.859159878442256",
+            "last_longitude": 2.859159878442256,
+            "minutes_lost": 12,
+            "pressure": 16907,
+            "sats": 0,
+            "speed": 0,
+            "status": "LOST GPS",
+            "temperature": 640.42,
+            "uptime": 202,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "21010048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 404,
+    "hotspots": [
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 0,
+            "id": "112ZtPBYTYXJYMNPeo4RxKWDoH8Kbtx8XvCapspjXAb2NRt9WG7T",
+            "lat": 48.7886761567557,
+            "long": 2.539742206118491,
+            "name": "short-umber-stork",
+            "reported_at": 1664280385397,
+            "rssi": -114.0,
+            "snr": 2.799999952316284,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 1,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "xaeOggh+AAAAzgAAygAM+ioAQgsAowAA",
+    "payload_size": 24,
+    "port": 6,
+    "raw_packet": "QCEBAEgAlAEGv20Mok0YMFhuzMvhl/2MjFHYqEQicF/RL6pxlw==",
+    "replay": false,
+    "reported_at": 1664280385397,
+    "type": "uplink",
+    "uuid": "b9427e6d-df5a-4d66-aed3-0e04d3928e9c"
+}
