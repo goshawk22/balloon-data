@@ -1,0 +1,130 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 1945142,
+        "nonce": 3
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 0,
+            "battery": 4.05,
+            "humidity": 1.9,
+            "last_latitude": 48.97583597754456,
+            "last_location": "48.97583597754456, 2.859159878442256",
+            "last_longitude": 2.859159878442256,
+            "minutes_lost": 21,
+            "pressure": 14601,
+            "sats": 0,
+            "speed": 0,
+            "status": "LOST GPS",
+            "temperature": 641.63,
+            "uptime": 211,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "21010048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 422,
+    "hotspots": [
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 0,
+            "id": "11YYVPbfe1mzAiy1wtdL1WzthFZGAAd48Q5PrVJEu67twsfpFw",
+            "lat": 48.733281541714696,
+            "long": 2.201277669883098,
+            "name": "zealous-hotpink-caterpillar",
+            "reported_at": 1664280925562,
+            "rssi": -120.0,
+            "snr": -4.199999809265137,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 0,
+            "id": "112abzdNP3tCkANiFfDwfNRosv9zUdMNHuRrwzwVe654jqvZtMM1",
+            "lat": 48.96542261981631,
+            "long": 2.3373064945790616,
+            "name": "zany-seaweed-deer",
+            "reported_at": 1664280925567,
+            "rssi": -123.0,
+            "snr": -7.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 0,
+            "id": "11B5SoW7eriVVyZsgdGnKmXtQECq2LtpjPzanwuL75nU2LvA9s1",
+            "lat": 49.015611191379165,
+            "long": 2.152210781381319,
+            "name": "stale-holographic-caribou",
+            "reported_at": 1664280925569,
+            "rssi": -122.0,
+            "snr": -7.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 0,
+            "id": "11vNCGC5xgPmB73maavwGxYqjaSR2HSgcEvLGFuzNLydX3zsb56",
+            "lat": 48.76042745782301,
+            "long": 2.330913134449608,
+            "name": "tame-magenta-lemur",
+            "reported_at": 1664280925571,
+            "rssi": -125.0,
+            "snr": -8.800000190734863,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 0,
+            "id": "11sUESQtK56mZnfWb8g13g2ZooazJTq3M8hbUPG6YwdiQwy6Ddd",
+            "lat": 48.879438635758696,
+            "long": 2.484844403865098,
+            "name": "shaggy-frost-otter",
+            "reported_at": 1664280925571,
+            "rssi": -118.0,
+            "snr": -3.799999952316284,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 5,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "xaeOggh+AAAAzQAA0wAV+qMAOQkAvgAA",
+    "payload_size": 24,
+    "port": 6,
+    "raw_packet": "QCEBAEgApgEGnmIevwHDnNXc7eYkGjInUX7K1SUJT+DR9Mbcag==",
+    "replay": false,
+    "reported_at": 1664280925562,
+    "type": "uplink",
+    "uuid": "d0dab447-5c14-475b-b99b-fffe5ecb2721"
+}

@@ -1,0 +1,74 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 1967502,
+        "nonce": 3
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 56,
+            "battery": 4.15,
+            "humidity": 65.58,
+            "latitude": 51.01081734960184,
+            "location": "51.01081734960184, -0.11272788719702476",
+            "longitude": -0.11272788719702476,
+            "minutes_lost": 0,
+            "pressure": 99939,
+            "sats": 6,
+            "speed": 0.62,
+            "status": "GPS",
+            "temperature": 13.51,
+            "uptime": 3,
+            "uv": 321
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "21010048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 6,
+    "hotspots": [
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 0,
+            "id": "1121CAWyTQMjm3gp3KfCKucKXdE1p3WLrwu1FtDPyNXfnRcQHYPY",
+            "lat": 51.009635456256184,
+            "long": -0.1106523339894409,
+            "name": "dandy-wool-wren",
+            "reported_at": 1664268442638,
+            "rssi": -98.0,
+            "snr": 10.199999809265137,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yIx4f+t6ADgB1wYAAwAABUcBhmMZngFB",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QCEBAEgABgAC6gFtNPslfx8q0RpOapC9Z8e6vY+qaWZ4TyGudg==",
+    "replay": false,
+    "reported_at": 1664268442638,
+    "type": "uplink",
+    "uuid": "0cda302d-9377-45d4-bec0-6cda712af46f"
+}

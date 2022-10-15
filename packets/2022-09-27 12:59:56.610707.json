@@ -1,0 +1,74 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 1933990,
+        "nonce": 3
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 0,
+            "battery": 4.05,
+            "humidity": 0.61,
+            "last_latitude": 48.97583597754456,
+            "last_location": "48.97583597754456, 2.859159878442256",
+            "last_longitude": 2.859159878442256,
+            "minutes_lost": 65,
+            "pressure": 6976,
+            "sats": 0,
+            "speed": 0,
+            "status": "LOST GPS",
+            "temperature": 646.37,
+            "uptime": 255,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "21010048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 511,
+    "hotspots": [
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 0,
+            "id": "11sxiW6PDLceU5nQYkuyxggHDY9jM73VYty5q8esJ1ej9CSoqTs",
+            "lat": 49.00969233574563,
+            "long": 2.0546492581342966,
+            "name": "beautiful-licorice-owl",
+            "reported_at": 1664283596037,
+            "rssi": -116.0,
+            "snr": -7.199999809265137,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 1,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "xaeOggh+AAAAzQAA/wBB/H0AG0AAPQAA",
+    "payload_size": 24,
+    "port": 6,
+    "raw_packet": "QCEBAEgA/wEGPkCXb/w9bUqP7uLq4tEWPmTuFvtc1giimoDVqQ==",
+    "replay": false,
+    "reported_at": 1664283596037,
+    "type": "uplink",
+    "uuid": "c14af31b-528c-4d0e-9391-00311febe1ea"
+}
